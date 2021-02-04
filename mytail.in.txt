@@ -1,0 +1,24 @@
+The 'tail' command displays the last 10 lines of a file.
+An option can be used to change 10 to some other number.
+The entire file is displayed if the number of lines to
+print is less than the total number of lines in the file.
+
+Note:  There is a 'head' command displays the first 10 lines
+of a file.  An option can be used to change 10 to some other
+number.
+
+Some notes about the Unix 'tail' command that are
+not part of this assignment.
+
+Multiple file names can be specified on the 'tail' command
+line.  If no file names are given, then 'tail' gets its input
+from the standard input stream.
+
+A -f option can be used that displays lines as they are
+written to a file.
+
+Example:  tail -f log
+
+Prints the first 10 lines in file log, but the command
+continues to run and will display lines as they are
+appended to file log.
